@@ -1,6 +1,6 @@
 import React from "react";
-import LocationInput from "./locationInput";
-import GuestSelector from "./guestSelector";
+import LocationInput from "./locationinput";
+import GuestSelector from "./guestselector";
 import SearchButton from "./searchbutton";
 
 export default function SearchForm({
