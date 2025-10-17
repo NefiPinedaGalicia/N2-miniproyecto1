@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import SearchForm from "./searchForm";
+import SearchForm from "./searchform";
 
 export default function Search({
   isSearchOpen,

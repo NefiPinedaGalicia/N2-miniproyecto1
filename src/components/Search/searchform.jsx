@@ -1,7 +1,7 @@
 import React from "react";
 import LocationInput from "./locationInput";
 import GuestSelector from "./guestSelector";
-import SearchButton from "./searchButton";
+import SearchButton from "./searchbutton";
 
 export default function SearchForm({
   stays,
@@ -29,7 +29,12 @@ export default function SearchForm({
         setGuests={setGuests}
       />
       <div className="flex items-center justify-center p-2">
-        <SearchButton stays={stays} location={location} guests={guests} onClick={onSearch} />
+        <SearchButton
+          stays={stays}
+          location={location}
+          guests={guests}
+          onClick={onSearch}
+        />
       </div>
     </form>
   );
